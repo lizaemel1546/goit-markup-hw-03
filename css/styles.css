@@ -147,9 +147,6 @@ body {
 
 .hero {
   background-color: var(--accent-color);
-}
-
-.section-hero {
   padding-top: 188px;
   padding-bottom: 188px;
 }
