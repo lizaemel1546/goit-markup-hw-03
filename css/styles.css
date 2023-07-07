@@ -375,7 +375,7 @@ body {
 .portfolio-menu-btn:hover {
   color: #ffffff;
   background-color: #404bbf;
-  border: 1px solid;
+  border: 1px solid transparent;
 }
 
 .portfolio-menu-btn:focus {
