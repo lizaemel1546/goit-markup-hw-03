@@ -347,6 +347,7 @@ body {
   display: flex;
   justify-content: center;
   gap: 24px;
+  margin-bottom: 72px;
 }
 
 .portfolio-menu-btn {
@@ -370,11 +371,13 @@ body {
 .portfolio-menu-btn:hover {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid;
 }
 
 .portfolio-menu-btn:focus {
   color: #ffffff;
   background-color: #404bbf;
+  border: 1px solid transparent;
 }
 
 .section-offers {
@@ -385,7 +388,8 @@ body {
 .offers-list {
   flex-wrap: wrap;
   display: flex;
-  gap: 48px 24px;
+  row-gap: 48px;
+  column-gap: 24px;
 }
 
 .offers-item {
