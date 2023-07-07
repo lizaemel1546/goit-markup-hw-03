@@ -27,19 +27,23 @@ body {
 
 .container {
   width: 100%;
-  max-width: 1188px;
+  max-width: 1158px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
 }
 
 .visually-hidden {
-  clip: rect(0 0 0 0);
-  clip-path: inset(50%);
-
-  overflow: hidden;
-
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
   white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 .link {
@@ -59,7 +63,7 @@ body {
 
 .header-navigation {
   display: flex;
-
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -73,6 +77,7 @@ body {
   text-transform: uppercase;
   word-spacing: 0;
   padding-right: 76px;
+  margin-right: 76px;
 }
 .header-logo-accent {
   color: #2e2f42;
@@ -132,6 +137,8 @@ body {
   display: flex;
   gap: 40px;
   margin-left: auto;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-address-menu:focus {
@@ -143,7 +150,7 @@ body {
   padding-top: 188px;
   padding-left: 472px;
   padding-right: 472px;
-  padding-bottom: 292px;
+  padding-bottom: 188px;
 }
 
 .hero-title {
@@ -153,7 +160,7 @@ body {
   font-weight: 700;
   line-height: 1.07;
   letter-spacing: 0.02em;
-  min-width: 496px;
+  max-width: 496px;
 }
 
 .hero-btn {
@@ -171,6 +178,9 @@ body {
   margin-left: auto;
   margin-right: auto;
   border-radius: 4px;
+  min-width: 169px;
+  height: 56px;
+  border: none;
 }
 
 .hero-btn:hover {
@@ -313,14 +323,11 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   padding-top: 17.5px;
+  padding-bottom: 100px;
 }
 
 .footer {
   background-color: var(--accent-color);
-}
-
-.footer-container {
-  height: 312px;
 }
 
 .portfolio-menu-list {
@@ -403,4 +410,8 @@ body {
 
 .offers-item-link {
   text-decoration: none;
+}
+
+.img {
+  display: block;
 }
