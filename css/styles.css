@@ -137,6 +137,9 @@ body {
   display: flex;
   gap: 40px;
   margin-left: auto;
+}
+
+.section-header {
   padding-top: 24px;
   padding-bottom: 24px;
 }
@@ -367,7 +370,7 @@ body {
   background-color: #404bbf;
 }
 
-.section {
+.section-offers {
   padding-bottom: 120px;
   padding-top: 24px;
 }
