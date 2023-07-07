@@ -102,6 +102,8 @@ body {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .header-menu-link:hover {
@@ -137,11 +139,6 @@ body {
   display: flex;
   gap: 40px;
   margin-left: auto;
-}
-
-.header-menu-item {
-  padding-top: 24px;
-  padding-bottom: 24px;
 }
 
 .header-address-menu:focus {
